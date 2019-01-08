@@ -99,7 +99,15 @@ string31 = "Ksm"
 res05 = string31.swapcase()
 print(res05)
 
+string32 = "ksmksmksmksm";
+res06 = string32.replace("s", "y", 3)
+print(res06)
+
 ############ 6个基本的 ############
 # join
-
-
+# split
+# find
+# strip
+# upper
+# lower
+# replace
