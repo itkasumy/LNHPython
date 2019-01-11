@@ -60,7 +60,72 @@
 # print(globals())
 #
 # # locals()
+#
+# nums = [1, 5, 3, 5, 0, 3]
+# print(max(nums))
+# print(min(nums))
 
-nums = [1, 5, 3, 5, 0, 3]
-print(max(nums))
-print(min(nums))
+# zip()
+# print(list(zip(('a', 'b', 'c'), (1, 2, 3))))
+#
+# person = {'name': 'ksm', 'age': 18, 'gender': 'boy'}
+# print(list(zip(person.keys(), person.values())))
+#
+# print(list(zip('hello', '12345')))
+#
+# scores = {'math': 98, 'chinese': 66, 'english': 99, 'history': 86}
+# print(max(zip(scores.values(), scores.keys())))
+
+# ord()
+# print(ord('c'))
+
+# pow()
+# print(pow(2, 3))
+# print(pow(2, 3, 3)) # 结果取余
+
+# reversed()
+# arr = [1, 3, 4, 6]
+# print(list(reversed(arr)))
+
+# round()
+# print(round(3.5))
+
+# set()
+# print(set('hello'))
+
+# slice()
+# s1 = slice(3, 5)
+# s2 = slice(1, 4, 2)
+# string = 'hello'
+# print(string[s1])
+# print(string[s2])
+# print(s2.start)
+# print(s2.stop)
+# print(s2.step)
+
+# stu_info_list = [
+#     {'name': 'zhangsan', 'age': 18},
+#     {'name': 'lisi', 'age': 24},
+#     {'name': 'wangwu', 'age': 17},
+#     {'name': 'zhaoliu', 'age': 22},
+# ]
+#
+# print(sorted(stu_info_list, key=lambda stu: stu['age']))
+
+# sum()
+# arr = [1, 2, 3, 4, 5, 6]
+# print(sum(arr))
+
+# vars()
+# def test():
+#     msg = 'laeuodsnvcl'
+#     print(locals())
+#     print(vars())
+#
+# test()
+# print(vars(int))
+
+# __import__()
+module_name = 'test'
+test = __import__(module_name)
+test.sayHi()
