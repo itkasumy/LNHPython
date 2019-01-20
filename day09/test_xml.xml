@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf8'?>
+<namelist>
+    <name enrolled="yes">
+        ksm
+        <age checked="no">24</age>
+        <sex>b</sex>
+    </name>
+    <name enrolled="no">
+        xml
+        <age checked="no">22</age>
+        <sex>g</sex>
+    </name>
+</namelist>
