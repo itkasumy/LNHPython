@@ -1,0 +1,40 @@
+DEBUG:root:debug message
+INFO:root:info message
+WARNING:root:warning message
+ERROR:root:error message
+CRITICAL:root:critical message
+DEBUG:root:debug message
+INFO:root:info message
+WARNING:root:warning message
+ERROR:root:error message
+CRITICAL:root:critical message
+DEBUG:root:------------------------------------
+DEBUG:root:debug message
+INFO:root:info message
+WARNING:root:warning message
+ERROR:root:error message
+CRITICAL:root:critical message
+2019-01-20 22:12:20,857
+2019-01-20 22:12:20,857
+2019-01-20 22:12:20,857
+2019-01-20 22:12:20,857
+2019-01-20 22:12:20,857
+2019-01-20 22:12:20,857
+2019-01-20 22:13:49,001 11
+2019-01-20 22:13:49,001 12
+2019-01-20 22:13:49,001 13
+2019-01-20 22:13:49,001 14
+2019-01-20 22:13:49,001 15
+2019-01-20 22:13:49,002 16
+2019-01-20 22:14:41,541 [12] ------------------------------------
+2019-01-20 22:14:41,541 [13] debug message
+2019-01-20 22:14:41,541 [14] info message
+2019-01-20 22:14:41,541 [15] warning message
+2019-01-20 22:14:41,541 [16] error message
+2019-01-20 22:14:41,541 [17] critical message
+2019-01-20 22:15:57,148 02-logging模块.py [13] ------------------------------------
+2019-01-20 22:15:57,148 02-logging模块.py [14] debug message
+2019-01-20 22:15:57,149 02-logging模块.py [15] info message
+2019-01-20 22:15:57,149 02-logging模块.py [16] warning message
+2019-01-20 22:15:57,149 02-logging模块.py [17] error message
+2019-01-20 22:15:57,149 02-logging模块.py [18] critical message
